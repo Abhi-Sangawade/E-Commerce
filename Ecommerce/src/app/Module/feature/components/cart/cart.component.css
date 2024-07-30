@@ -1,0 +1,8 @@
+.container {
+    box-shadow: 0 4px 15px 0 rgba(240, 5, 5, 0.603);
+    padding: 15px;
+}
+.box{
+    box-shadow: 0 5px 15px 0 rgba(27, 27, 27, 0.959);
+    padding: 15px;
+}

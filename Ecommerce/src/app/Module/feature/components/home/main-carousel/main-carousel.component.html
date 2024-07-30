@@ -1,0 +1,15 @@
+<!-- src/app/home/main-carousel/main-carousel.component.html -->
+<div class="relative">
+    <div class="carousel" [style.transform]="'translateX(-' +
+     (currentSlide * 100) + '%)'">
+     
+     <ng-container *ngFor="let item of carouselData; let i = index" class="">
+        <a  class="carousel-item">
+            <img [src]="item.image" alt="carousel image">
+        </a>
+     </ng-container>
+     
+
+    </div>
+  </div>
+  

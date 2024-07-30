@@ -1,0 +1,27 @@
+<div class="w-full">
+    <div class="bg-gray-950 text-white w-full h-1/2 shadow-lg p-6">
+       <div class="flex justify-around">
+          <div class="flex flex-col" *ngFor="let item of category [selectedSection].sections">
+             <h1 class="text center">{{item.name}}</h1>
+             <button mat-button *ngFor="let section of item.items">
+               {{section.name}}
+             </button>
+          </div>
+          <div class="hidden lg:block">
+            <div class="mb-5">
+               <img class="w-[19rem] h-[20rem] object-cover object-top rounded-md" 
+               src="https://www.ethnicplus.in/media/catalog/product/cache/77b9a44d9276879ccdde931a01149182/k/a/kat-5032-yellow_8_.jpg" alt="">
+            </div>
+            <p class="text-gray-600">New Arivals</p>
+          </div>
+          <div class="hidden lg:block">
+            <div class="mb-5">
+               <img class="w-[19rem] h-[20rem] object-cover object-top rounded-md" 
+               src="https://assets.ajio.com/medias/sys_master/root/20231205/JltF/656ed471afa4cf41f5b4f8b2/-473Wx593H-462329145-green-MODEL.jpg" alt="">
+            </div>
+            <p class="text-gray-600">New Arivals</p>
+          </div>
+       </div>
+    </div>
+ </div>
+ 

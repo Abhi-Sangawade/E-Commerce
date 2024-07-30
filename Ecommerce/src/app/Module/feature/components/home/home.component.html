@@ -1,0 +1,13 @@
+<!-- src/app/home/home.component.html -->
+<div class="mt-6">
+<div>
+    <app-main-carousel></app-main-carousel> <!-- Using MainCarouselComponent inside HomeComponent -->
+  </div>
+  <div>
+    <app-product-slider title="Men's Jeans" [products]="menJeans"/><!-- Using MainCarouselComponent inside HomeComponent -->
+    <app-product-slider title="Woman's Dress" [products]="womenGouns"/>
+    <app-product-slider title="Lehnga Choli" [products]="lenghaCholi"/>
+    <app-product-slider title="Men's Kurta" [products]="menkurta"/>
+    <app-product-slider title="Shoes" [products]="mensShoes"/>
+  </div>
+</div>

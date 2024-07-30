@@ -1,0 +1,11 @@
+.hide-scrollbar{
+    scrollbar-width: none;
+}
+
+.hide-scrollbar::-webkit-scrollbar{
+    display: none;
+}
+.box {
+    box-shadow: 0 4px 15px 0 rgba(68, 65, 65, 0.836);
+    padding: 15px;
+}
